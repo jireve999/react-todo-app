@@ -123,7 +123,6 @@ body {
 @media (min-width: 768px) {
   .container {
     height: 80%;
-    /* justify-content: center; */
   }
 
   .title {
@@ -167,8 +166,8 @@ select {
   background-color: #fff;
   font-size: 16px;
   color: #333;
-  -webkit-appearance: none; /* Safari 和 Chrome */
-  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBvbHlsaW5lIHN0eWxlPSJmaWxsOiBjdXJyZW50Q29sb3I7IiBwb2ludHM9IjQgNiA4IDEwIDEyIDYiLz48L3N2Zz4=');
   background-repeat: no-repeat;
