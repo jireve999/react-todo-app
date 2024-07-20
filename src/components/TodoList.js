@@ -38,8 +38,8 @@ const TodoList = () => {
                       className="checkbox"
                     />
                     <span className={`todo-title ${todo.completed ? 'completed' : ''}`}>{todo.title}</span>
+                    <span className="todo-priority">Priority: {todo.priority}</span>
                   </span>
-                  <span className="todo-priority">Priority: {todo.priority}</span>
                   <button
                     onClick={() => dispatch(deleteTodo(todo.id))}
                     className="delete-button"
